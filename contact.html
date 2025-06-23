@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - THE CROP BY JD</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;500;600&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Favicons -->
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <div class="header-content">
+        <!-- Logo -->
+        <a href="index.html" class="logo">
+          <img src="img/logo.png" alt="THE CROP BY JD Logo" class="logo-img">
+          <span class="logo-text">THE CROP BY JD</span>
+        </a>
+        
+        <!-- Desktop Navigation -->
+        <nav class="nav-desktop">
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+          </ul>
+        </nav>
+        
+        <!-- Mobile Navigation Button -->
+        <button class="nav-toggle" id="nav-toggle">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+      
+      <!-- Mobile Menu -->
+      <div class="nav-mobile" id="nav-mobile">
+        <ul class="nav-links-mobile">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <!-- Page Header -->
+  <section class="page-header">
+    <div class="container">
+      <h1 class="page-title" data-aos="fade-up">Contact Us</h1>
+      <p class="page-description" data-aos="fade-up" data-aos-delay="100">
+        Get in touch with our team to discuss your export requirements
+      </p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact-section">
+    <div class="container">
+      <div class="contact-content">
+        <!-- Contact Information -->
+        <div class="contact-info-box" data-aos="fade-up">
+          <div class="contact-info-content">
+            <h3 class="contact-title">Get In Touch</h3>
+            
+            <div class="contact-info-list">
+              <div class="contact-info-item">
+                <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                <div class="contact-details">
+                  <h4>Address</h4>
+                  <p>
+                    Sumerpur 306902<br>
+                    Pali, Rajasthan<br>
+                    India
+                  </p>
+                </div>
+              </div>
+              
+              <div class="contact-info-item">
+                <div class="contact-icon"><i class="fas fa-phone-alt"></i></div>
+                <div class="contact-details">
+                  <h4>Phone</h4>
+                  <p>+91 8690281237</p>
+                </div>
+              </div>
+              
+              <div class="contact-info-item">
+                <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                <div class="contact-details">
+                  <h4>Email</h4>
+                  <p>support@thecropbyjd.com</p>
+                </div>
+              </div>
+              
+              <div class="contact-info-item">
+                <div class="contact-icon"><i class="fas fa-clock"></i></div>
+                <div class="contact-details">
+                  <h4>Business Hours</h4>
+                  <p>Monday to Friday: 9:00 AM - 6:00 PM</p>
+                  <p>Saturday: 9:00 AM - 1:00 PM</p>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Social Media -->
+            <div class="contact-social">
+              <h4>Connect With Us</h4>
+              <div class="social-links">
+                <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Contact Form -->
+        <div class="contact-form-box" data-aos="fade-up" data-aos-delay="200">
+          <div class="contact-form-content">
+            <h3 class="contact-title">Send Us A Message</h3>
+            
+            <form id="contactForm" action="#" method="POST">
+              <div class="form-grid">
+                <div class="form-group">
+                  <label for="fullName">Full Name *</label>
+                  <input type="text" id="fullName" name="fullName" placeholder="Your full name" required>
+                </div>
+                
+                <div class="form-group">
+                  <label for="companyName">Company Name *</label>
+                  <input type="text" id="companyName" name="companyName" placeholder="Your company name" required>
+                </div>
+                
+                <div class="form-group">
+                  <label for="email">Email Address *</label>
+                  <input type="email" id="email" name="email" placeholder="Your email address" required>
+                </div>
+                
+                <div class="form-group">
+                  <label for="phone">Phone Number *</label>
+                  <input type="tel" id="phone" name="phone" placeholder="Your phone number" required>
+                </div>
+                
+                <div class="form-group full-width">
+                  <label for="productInterest">Interested In *</label>
+                  <select id="productInterest" name="productInterest" required>
+                    <option value="" disabled selected>Select product category</option>
+                    <option value="dehydrated_food">Dehydrated Food</option>
+                    <option value="crops">Crops</option>
+                    <option value="powders">Powders</option>
+                    <option value="spices">Spices</option>
+                    <option value="pharma_items">Pharmaceutical Items</option>
+                    <option value="multiple">Multiple Categories</option>
+                  </select>
+                </div>
+                
+                <div class="form-group full-width">
+                  <label for="message">Message *</label>
+                  <textarea id="message" name="message" rows="5" placeholder="Please describe your requirements in detail" required></textarea>
+                </div>
+                
+                <div class="form-group full-width">
+                  <div class="form-checkbox">
+                    <input type="checkbox" id="privacy" name="privacy" required>
+                    <label for="privacy">
+                      I agree to the <a href="terms.html">Terms & Conditions</a> and <a href="#">Privacy Policy</a>. *
+                    </label>
+                  </div>
+                </div>
+              </div>
+              
+              <button type="submit" class="btn btn-primary">
+                Submit Inquiry <i class="fas fa-paper-plane ml-2"></i>
+              </button>
+
+              <div id="form-success" class="form-success">
+                <p><i class="fas fa-check-circle"></i> Thank you! Your message has been sent successfully. We'll get back to you shortly.</p>
+              </div>
+              
+              <div id="form-error" class="form-error">
+                <p><i class="fas fa-exclamation-circle"></i> Sorry, there was an error submitting your form. Please try again.</p>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Map Section -->
+  <section class="map-section" data-aos="fade-up">
+    <div class="container">
+      <h2 class="section-title text-center">Our Location</h2>
+      <div class="map-container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14220.977801456136!2d73.08188624494203!3d25.152665559792144!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1743125737615!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- Export Partners -->
+
+  <!-- <section class="partners-section" data-aos="fade-up">
+    <div class="container">
+      <h2 class="section-title text-center">Our Global Partners</h2>
+      <p class="section-description text-center">We proudly export our premium products to businesses worldwide</p>
+      
+      <div class="partners-logos">
+        <div class="partner-logo">
+          <img src="https://via.placeholder.com/150x80?text=Partner+1" alt="Partner 1">
+        </div>
+        <div class="partner-logo">
+          <img src="https://via.placeholder.com/150x80?text=Partner+2" alt="Partner 2">
+        </div>
+        <div class="partner-logo">
+          <img src="https://via.placeholder.com/150x80?text=Partner+3" alt="Partner 3">
+        </div>
+        <div class="partner-logo">
+          <img src="https://via.placeholder.com/150x80?text=Partner+4" alt="Partner 4">
+        </div>
+        <div class="partner-logo">
+          <img src="https://via.placeholder.com/150x80?text=Partner+5" alt="Partner 5">
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+  <!-- FAQ Section -->
+  <section class="faq-section" data-aos="fade-up">
+    <div class="container">
+      <h2 class="section-title text-center">Frequently Asked Questions</h2>
+      
+      <div class="faq-container">
+        <div class="faq-item">
+          <div class="faq-question">
+            <h3>What is the minimum order quantity for your products?</h3>
+            <span class="faq-icon"><i class="fas fa-plus"></i></span>
+          </div>
+          <div class="faq-answer">
+            <p>Minimum order quantities vary by product category. For most items, we require a minimum order of 100 kg, but this can vary for specialized products. Please contact our sales team for specific product MOQs.</p>
+          </div>
+        </div>
+        
+        <div class="faq-item">
+          <div class="faq-question">
+            <h3>What certifications do your products have?</h3>
+            <span class="faq-icon"><i class="fas fa-plus"></i></span>
+          </div>
+          <div class="faq-answer">
+            <p>Our products carry various certifications including ISO 22000, HACCP, Organic, Kosher, and Halal certifications. The specific certifications available vary by product and can be provided upon request.</p>
+          </div>
+        </div>
+        
+        <div class="faq-item">
+          <div class="faq-question">
+            <h3>What are your shipping terms?</h3>
+            <span class="faq-icon"><i class="fas fa-plus"></i></span>
+          </div>
+          <div class="faq-answer">
+            <p>We offer various shipping terms including FOB, CIF, and EXW. The specific terms can be negotiated based on your requirements and the destination country. We work with reliable logistics partners to ensure timely delivery.</p>
+          </div>
+        </div>
+        
+        <div class="faq-item">
+          <div class="faq-question">
+            <h3>Can you provide custom packaging for your products?</h3>
+            <span class="faq-icon"><i class="fas fa-plus"></i></span>
+          </div>
+          <div class="faq-answer">
+            <p>Yes, we offer custom packaging solutions to meet your specific requirements. This includes custom pack sizes, private labeling, and specialized packaging materials for extended shelf life or market-specific needs.</p>
+          </div>
+        </div>
+        
+        <div class="faq-item">
+          <div class="faq-question">
+            <h3>How do you ensure product quality and safety?</h3>
+            <span class="faq-icon"><i class="fas fa-plus"></i></span>
+          </div>
+          <div class="faq-answer">
+            <p>We maintain strict quality control measures throughout our supply chain. This includes supplier verification, raw material testing, in-process controls, and finished product analysis. Our facilities adhere to international quality and food safety standards, and we provide detailed Certificates of Analysis with each shipment.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta">
+    <div class="container">
+      <div class="cta-content" data-aos="fade-up">
+        <h2 class="cta-title">Ready to Source Premium Indian Products?</h2>
+        <p class="cta-description">Our team is here to help you find the perfect raw goods for your business needs.</p>
+        <a href="#contactForm" class="btn btn-white">Reach Out Today</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <!-- Company Info -->
+        <div class="footer-col">
+          <h3 class="footer-title">THE CROP BY JD</h3>
+          <p class="footer-description">
+            Premium exporter of Indian goods including dehydrated foods, crops, powders, spices, and pharmaceutical items.
+          </p>
+          <div class="social-links">
+            <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+        
+        <!-- Quick Links -->
+        <div class="footer-col">
+          <h3 class="footer-title">Quick Links</h3>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="terms.html">Terms & Conditions</a></li>
+          </ul>
+        </div>
+        
+        <!-- Product Categories -->
+        <div class="footer-col">
+          <h3 class="footer-title">Product Categories</h3>
+          <ul class="footer-links">
+            <li><a href="dehydrated.html">Dehydrated Foods</a></li>
+            <li><a href="crops.html">Crops</a></li>
+            <li><a href="powders.html">Powders</a></li>
+            <li><a href="spices.html">Spices</a></li>
+            <!-- <li><a href="pharma.html">Pharmaceutical Items</a></li> -->
+          </ul>
+        </div>
+        
+        <!-- Contact Info -->
+        <div class="footer-col">
+          <h3 class="footer-title">Contact Us</h3>
+          <ul class="contact-info">
+            <li>
+              <i class="fas fa-map-marker-alt"></i>
+              <span>Sumerpur 306902<br>Pali, Rajasthan 301001<br>India</span>
+            </li>
+            <li>
+              <i class="fas fa-phone-alt"></i>
+              <span>+91 8690281237</span>
+            </li>
+            <li>
+              <i class="fas fa-envelope"></i>
+              <span>support@thecropbyjd.com</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p class="copyright">&copy; 2023 THE CROP BY JD. All rights reserved.</p>
+        <div class="footer-bottom-links">
+          <a href="terms.html">Terms & Conditions</a> | 
+          <a href="#">Privacy Policy</a> | 
+          <a href="#">Sitemap</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <a href="#" class="back-to-top" id="back-to-top">
+    <i class="fas fa-arrow-up"></i>
+  </a>
+
+  <!-- JavaScript -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
